@@ -25,9 +25,8 @@ body {
 
 .wrapper {
   min-height: 100vh;
-  background: url(./images/bg-pattern-top.svg) no-repeat,
-    url(./images/bg-pattern-top.svg) no-repeat;
-  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background: url(./images/bg-pattern-top.svg) no-repeat 45vw 45vh,
+    url(./images/bg-pattern-top.svg) no-repeat right 45vw bottom 45vh;
   background-color: var(--primary-dark-clr);
   display: flex;
   justify-content: center;
