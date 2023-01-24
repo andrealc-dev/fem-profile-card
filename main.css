@@ -25,8 +25,8 @@ body {
 
 .wrapper {
   min-height: 100vh;
-  background: url(/images/bg-pattern-top.svg) no-repeat,
-    url(/images/bg-pattern-top.svg) no-repeat;
+  background: url(./images/bg-pattern-top.svg) no-repeat,
+    url(./images/bg-pattern-top.svg) no-repeat;
   background-position: right 45vw bottom 45vh, 45vw 45vh;
   background-color: var(--primary-dark-clr);
   display: flex;
@@ -35,7 +35,7 @@ body {
 }
 
 .main {
-  background: url(images/bg-pattern-card.svg) no-repeat, #fff;
+  background: url(./images/bg-pattern-card.svg) no-repeat, #fff;
   min-width: 21.8rem;
   border-radius: 1rem;
   display: flex;
